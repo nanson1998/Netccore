@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.11.3" />
+    <PackageReference Include="EPPlus" Version="5.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DemoAPI.Data\4.DemoAPI.Data.csproj" />
+    <ProjectReference Include="..\DemoAPI.Repository\3.DemoAPI.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
